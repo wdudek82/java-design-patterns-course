@@ -1,6 +1,8 @@
 package com.company;
 
-import com.company.AbstractFactoryChallenge.Demo;
+// import com.company.AbstractFactoryPattern.Demo;
+// import com.company.AbstractFactoryChallenge.Demo;
+import com.company.SingletonPattern.Demo;
 
 public class Main {
 
