@@ -6,7 +6,9 @@ public class Singleton {
 
     private Singleton() {}
 
-    public static Singleton getInstance() {
+    // by adding the synchronized keyword we force every thread
+    // to wait its turn before it can access the method
+    public static synchronized Singleton getInstance() {
         if (uniqueInstance == null) {
             uniqueInstance = new Singleton();
         }
