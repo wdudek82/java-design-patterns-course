@@ -8,7 +8,7 @@ import com.company.BuilderPattern.Demo;
 public class Main {
 
     public static void main(String[] args) {
-        Demo.run();
-        // Demo.runChallenge();
+        // Demo.run();
+        Demo.runChallenge();
     }
 }
