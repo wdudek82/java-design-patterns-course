@@ -1,5 +1,7 @@
 package com.company.SingletonPattern;
 
+import com.company.SingletonPatternChallenge.CaptainSingleton;
+
 public class Demo {
     public static void run() {
         Singleton s1 = Singleton.getInstance();
@@ -22,6 +24,18 @@ public class Demo {
             System.out.println("Same object");
             System.out.println("First reference:" + s1);
             System.out.println("Second reference:" + s2);
+        }
+    }
+
+    public static void runChallenge() {
+        CaptainSingleton c1 = CaptainSingleton.getIntance();
+        CaptainSingleton c2 = CaptainSingleton.getIntance();
+
+        System.out.println("First reference:" + c1);
+        System.out.println("Second reference:" + c2);
+
+        if (c1 == c2) {
+            System.out.println("Same object");
         }
     }
 }
