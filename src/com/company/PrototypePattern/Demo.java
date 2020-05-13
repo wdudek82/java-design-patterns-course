@@ -1,5 +1,8 @@
 package com.company.PrototypePattern;
 
+import com.company.PrototypePatternChallenge.BasicCar;
+import com.company.PrototypePatternChallenge.BasicCarCache;
+
 public class Demo {
     public static void run() {
         ShapeCache.loadCache();
@@ -18,5 +21,21 @@ public class Demo {
 
         System.out.println("Type: " + clonedShape3.getType());
         clonedShape3.draw();
+    }
+
+    public static void runChallenge() {
+        BasicCarCache.loadCache();
+
+        BasicCar car1 = BasicCarCache.getCar("Ford");
+
+        System.out.println("Name: " + car1.getName());
+        System.out.println("Price: " + car1.getPrice());
+        System.out.println("Class name: " + car1.getClass());
+
+        BasicCar car2 = BasicCarCache.getCar("Nano");
+
+        System.out.println("Name: " + car2.getName());
+        System.out.println("Price: " + car2.getPrice());
+        System.out.println("Class name: " + car2.getClass());
     }
 }
