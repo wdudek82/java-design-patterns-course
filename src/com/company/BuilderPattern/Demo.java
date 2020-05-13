@@ -7,10 +7,10 @@ import com.company.BuilderPatternChallenge.VegMealBuilder;
 
 public class Demo {
     public static void run() {
+        Director director = new Director();
+
         Builder carBuilder = new Car();
         Builder motorcycleBuilder = new Motorcycle();
-
-        Director director = new Director();
 
         director.construct(carBuilder);
         Product car = carBuilder.getVehicle();
@@ -22,10 +22,10 @@ public class Demo {
     }
 
     public static void runChallenge() {
+        com.company.BuilderPatternChallenge.Director director = new com.company.BuilderPatternChallenge.Director();
+
         MealBuilder vegMealBuilder = new VegMealBuilder();
         MealBuilder chickenMealBuilder = new NonVegMealBuilder();
-
-        com.company.BuilderPatternChallenge.Director director = new com.company.BuilderPatternChallenge.Director();
 
         director.construct(vegMealBuilder);
         Meal vegMeal = vegMealBuilder.getMeal();

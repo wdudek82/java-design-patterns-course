@@ -1,11 +1,11 @@
 package com.company.BuilderPatternChallenge;
 
 public class Director {
-    MealBuilder myMealBuilder;
+    MealBuilder mealBuilder;
 
-    public void construct(MealBuilder mealBuilder) {
-        myMealBuilder = mealBuilder;
-        myMealBuilder.buildBurger();
-        myMealBuilder.buildDrink();
+    public void construct(MealBuilder builder) {
+        mealBuilder = builder;
+        mealBuilder.buildBurger();
+        mealBuilder.buildDrink();
     }
 }
