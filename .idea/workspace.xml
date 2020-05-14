@@ -10,8 +10,56 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d3269ca-38a0-4fc4-b3fc-b564ba639cef" name="Default Changelist" comment="Update README #3">
+    <list default="true" id="4d3269ca-38a0-4fc4-b3fc-b564ba639cef" name="Default Changelist" comment="Update README - add description do Behavioral Patterns section">
+      <change afterPath="$PROJECT_DIR$/src/com/company/StructuralPatterns/StrategyPattern/CreditCardStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/StructuralPatterns/StrategyPattern/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/StructuralPatterns/StrategyPattern/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/StructuralPatterns/StrategyPattern/PayPalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/StructuralPatterns/StrategyPattern/PaymentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/StructuralPatterns/StrategyPattern/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/StructuralPatternsChallenge/Abacus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/StructuralPatternsChallenge/CalculationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/StructuralPatternsChallenge/OperationAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/StructuralPatternsChallenge/OperationSubtract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/Delegation/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/Delegation/RealPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryAbstractCreator/AbstractShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryAbstractCreator/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryAbstractCreator/CircleFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryAbstractCreator/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryAbstractCreator/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryAbstractCreator/RectangleFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryAbstractCreator/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryAbstractCreator/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryAbstractCreator/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryAbstractCreator/TriangleFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryConcreteCreator/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryConcreteCreator/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryConcreteCreator/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryConcreteCreator/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryConcreteCreator/ShapeFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryConcreteCreator/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryConcreteCreator/ShapeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryConcreteCreator/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryPatternChallenge/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryPatternChallenge/AnimalFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryPatternChallenge/AnimalFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryPatternChallenge/AnimalType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryPatternChallenge/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryPatternChallenge/Frog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryPatternChallenge/Tiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryStaticCreator/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryStaticCreator/ShapeFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryStaticCreator/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/FactoryStaticCreator/ShapeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/ProgramminToAnInterface/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/ProgramminToAnInterface/DisplayModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/ProgramminToAnInterface/Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-design-patterns-course/com/neevor/ProgramminToAnInterface/Projector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +72,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -68,7 +116,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.neevor.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="java-design-patterns-course" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
@@ -176,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589481979491</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update README - add description do Behavioral Patterns section">
+      <created>1589483290085</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589483290085</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,18 +262,19 @@
     <MESSAGE value="Update README" />
     <MESSAGE value="Update README #2" />
     <MESSAGE value="Update README #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README #3" />
+    <MESSAGE value="Update README - add description do Behavioral Patterns section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README - add description do Behavioral Patterns section" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2378" y="192" width="1063" height="749" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588093229345">
+    <state x="2378" y="192" width="1063" height="749" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589485690204">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state x="2378" y="192" width="1063" height="749" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1588093229345" />
-    <state x="2693" y="267" key="#com.intellij.ide.util.MemberChooser" timestamp="1589110798292">
+    <state x="2378" y="192" width="1063" height="749" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589485690204" />
+    <state x="2693" y="267" key="#com.intellij.ide.util.MemberChooser" timestamp="1589486261859">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="773" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1048@0.0.1920.1048" timestamp="1588320194277" />
-    <state x="2693" y="267" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589110798292" />
+    <state x="2693" y="267" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589486261859" />
     <state x="2581" y="320" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589111292293">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
@@ -231,26 +287,26 @@
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="2668" y="342" key="FileChooserDialogImpl/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1588093419847" />
-    <state width="1876" height="317" key="GridCell.Tab.0.bottom" timestamp="1589114915957">
+    <state width="1876" height="317" key="GridCell.Tab.0.bottom" timestamp="1589486640955">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state width="1878" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1048@0.0.1920.1048" timestamp="1588335876574" />
-    <state width="1876" height="317" key="GridCell.Tab.0.bottom/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589114915957" />
-    <state width="1876" height="317" key="GridCell.Tab.0.center" timestamp="1589114915956">
+    <state width="1876" height="317" key="GridCell.Tab.0.bottom/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589486640955" />
+    <state width="1876" height="317" key="GridCell.Tab.0.center" timestamp="1589486640954">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state width="1878" height="278" key="GridCell.Tab.0.center/0.0.1920.1048@0.0.1920.1048" timestamp="1588335876573" />
-    <state width="1876" height="317" key="GridCell.Tab.0.center/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589114915956" />
-    <state width="1876" height="317" key="GridCell.Tab.0.left" timestamp="1589114915956">
+    <state width="1876" height="317" key="GridCell.Tab.0.center/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589486640954" />
+    <state width="1876" height="317" key="GridCell.Tab.0.left" timestamp="1589486640954">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state width="1878" height="278" key="GridCell.Tab.0.left/0.0.1920.1048@0.0.1920.1048" timestamp="1588335876572" />
-    <state width="1876" height="317" key="GridCell.Tab.0.left/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589114915956" />
-    <state width="1876" height="317" key="GridCell.Tab.0.right" timestamp="1589114915956">
+    <state width="1876" height="317" key="GridCell.Tab.0.left/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589486640954" />
+    <state width="1876" height="317" key="GridCell.Tab.0.right" timestamp="1589486640954">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state width="1878" height="278" key="GridCell.Tab.0.right/0.0.1920.1048@0.0.1920.1048" timestamp="1588335876574" />
-    <state width="1876" height="317" key="GridCell.Tab.0.right/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589114915956" />
+    <state width="1876" height="317" key="GridCell.Tab.0.right/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589486640954" />
     <state x="2468" y="322" key="IDE.errors.dialog" timestamp="1588093242302">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
@@ -264,10 +320,10 @@
     </state>
     <state x="448" y="141" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1588319489845" />
     <state x="2368" y="162" key="SettingsEditor/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589481248569" />
-    <state x="2391" y="168" width="1095" height="780" key="Vcs.Push.Dialog.v2" timestamp="1589481980646">
+    <state x="2391" y="168" width="1095" height="780" key="Vcs.Push.Dialog.v2" timestamp="1589483292298">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state x="2391" y="168" width="1095" height="780" key="Vcs.Push.Dialog.v2/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589481980646" />
+    <state x="2391" y="168" width="1095" height="780" key="Vcs.Push.Dialog.v2/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589483292298" />
     <state x="2618" y="431" key="cloudConfig.PluginsDialog" timestamp="1589480006451">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
