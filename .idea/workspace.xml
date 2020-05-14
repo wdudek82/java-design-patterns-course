@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d3269ca-38a0-4fc4-b3fc-b564ba639cef" name="Default Changelist" comment="Update README #2">
+    <list default="true" id="4d3269ca-38a0-4fc4-b3fc-b564ba639cef" name="Default Changelist" comment="Update README #3">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +111,7 @@
       <workItem from="1589100513431" duration="99000" />
       <workItem from="1589100656866" duration="6769000" />
       <workItem from="1589479796407" duration="213000" />
-      <workItem from="1589480056695" duration="1911000" />
+      <workItem from="1589480056695" duration="2089000" />
     </task>
     <task id="LOCAL-00001" summary="Add Factory - abstract creator">
       <created>1588793636615</created>
@@ -169,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589481880720</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update README #3">
+      <created>1589481979491</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589481979491</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +206,8 @@
     <MESSAGE value="clean up" />
     <MESSAGE value="Update README" />
     <MESSAGE value="Update README #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README #2" />
+    <MESSAGE value="Update README #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README #3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2378" y="192" width="1063" height="749" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588093229345">
@@ -256,10 +264,10 @@
     </state>
     <state x="448" y="141" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1588319489845" />
     <state x="2368" y="162" key="SettingsEditor/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589481248569" />
-    <state x="2391" y="168" width="1095" height="780" key="Vcs.Push.Dialog.v2" timestamp="1589481881708">
+    <state x="2391" y="168" width="1095" height="780" key="Vcs.Push.Dialog.v2" timestamp="1589481980646">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state x="2391" y="168" width="1095" height="780" key="Vcs.Push.Dialog.v2/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589481881708" />
+    <state x="2391" y="168" width="1095" height="780" key="Vcs.Push.Dialog.v2/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589481980646" />
     <state x="2618" y="431" key="cloudConfig.PluginsDialog" timestamp="1589480006451">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>

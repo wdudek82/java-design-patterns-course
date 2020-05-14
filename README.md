@@ -2,6 +2,12 @@
 
 ## Principles - SOLID
 
+1. Single Responsibility Principle
+2. Open/Closed Principle (open for extension, closed for modification),
+3. Liskov Substitution Principle,
+4. Interface Segregation Principle,
+5. Dependency Inversion/Injection Principle
+
 ## Design Patterns (examples & exercises)
 
 ### Creational Patterns
