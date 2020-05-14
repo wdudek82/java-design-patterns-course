@@ -1,12 +1,12 @@
 package com.company;
 
-// import com.company.AbstractFactoryPattern.Demo;
-// import com.company.AbstractFactoryChallenge.Demo;
-// import com.company.SingletonPattern.Demo;
-// import com.company.BuilderPattern.Demo;
-// import com.company.PrototypePattern.Demo;
+// import com.company.CreationalPatterns.AbstractFactoryPattern.Demo;
+// import com.company.CreationalPatterns.AbstractFactoryChallenge.Demo;
+// import com.company.CreationalPatterns.SingletonPattern.Demo;
+// import com.company.CreationalPatterns.BuilderPattern.Demo;
+// import com.company.CreationalPatterns.PrototypePattern.Demo;
 
-import com.company.PrototypePattern.Demo;
+import com.company.CreationalPatterns.PrototypePattern.Demo;
 
 public class Main {
 

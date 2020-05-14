@@ -54,7 +54,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -109,7 +109,7 @@
       <workItem from="1589100513431" duration="99000" />
       <workItem from="1589100656866" duration="6769000" />
       <workItem from="1589479796407" duration="213000" />
-      <workItem from="1589480056695" duration="1024000" />
+      <workItem from="1589480056695" duration="1191000" />
     </task>
     <task id="LOCAL-00001" summary="Add Factory - abstract creator">
       <created>1588793636615</created>
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589481018973</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial">
+      <created>1589481105931</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589481105931</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +167,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="Add Factory - abstract creator" />
     <MESSAGE value="Add Factory Pattern example - abstract creator" />
     <MESSAGE value="Initial" />
@@ -211,11 +221,11 @@
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="2468" y="322" key="IDE.errors.dialog/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1588093242302" />
-    <state x="2368" y="162" key="SettingsEditor" timestamp="1588793764773">
+    <state x="2368" y="162" key="SettingsEditor" timestamp="1589481248569">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="448" y="141" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1588319489845" />
-    <state x="2368" y="162" key="SettingsEditor/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1588793764773" />
+    <state x="2368" y="162" key="SettingsEditor/1920.0.1920.1200/0.0.1920.1168@1920.0.1920.1200" timestamp="1589481248569" />
     <state x="2391" y="168" width="1095" height="780" key="Vcs.Push.Dialog.v2" timestamp="1589480625555">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
