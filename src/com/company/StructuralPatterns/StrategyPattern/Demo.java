@@ -1,9 +1,9 @@
 package com.company.StructuralPatterns.StrategyPattern;
 
-import com.company.StructuralPatternsChallenge.Abacus;
-import com.company.StructuralPatternsChallenge.OperationAdd;
-import com.company.StructuralPatternsChallenge.CalculationStrategy;
-import com.company.StructuralPatternsChallenge.OperationSubtract;
+import com.company.StructuralPatterns.StrategyPatternChallenge.Abacus;
+import com.company.StructuralPatterns.StrategyPatternChallenge.OperationAdd;
+import com.company.StructuralPatterns.StrategyPatternChallenge.CalculationStrategy;
+import com.company.StructuralPatterns.StrategyPatternChallenge.OperationSubtract;
 
 public class Demo {
     public static void run() {

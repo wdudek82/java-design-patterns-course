@@ -1,4 +1,4 @@
-package com.company.StructuralPatternsChallenge;
+package com.company.StructuralPatterns.StrategyPatternChallenge;
 
 public class OperationAdd implements CalculationStrategy {
     @Override

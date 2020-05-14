@@ -1,4 +1,4 @@
-package com.company.StructuralPatternsChallenge;
+package com.company.StructuralPatterns.StrategyPatternChallenge;
 
 public class Abacus {
     public void calculate(CalculationStrategy calculationStrategy, int x, int y) {
