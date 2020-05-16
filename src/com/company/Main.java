@@ -15,6 +15,7 @@ import com.company.BehavioralPatterns.AdapterPattern.Demo;
 // import com.company.StructuralPatterns.StrategyPattern.Demo;
 
 
+
 public class Main {
 
     public static void main(String[] args) {

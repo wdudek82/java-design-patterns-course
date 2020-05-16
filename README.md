@@ -1,4 +1,4 @@
-# Udemy - Java Design Patterns Course, Jason Fedin
+# Java Design Patterns Course by Jason Fedin
 
 ## Principles - SOLID
 
