@@ -9,15 +9,19 @@ package com.company;
 // import com.company.CreationalPatterns.PrototypePattern.Demo;
 
 // Behavioral Patterns
-// ...
+import com.company.BehavioralPatterns.AdapterPattern.Demo;
 
 // Structural Patterns
-import com.company.StructuralPatterns.StrategyPattern.Demo;
+// import com.company.StructuralPatterns.StrategyPattern.Demo;
+
 
 public class Main {
 
     public static void main(String[] args) {
-        // Demo.run();
-        Demo.runChallenge();
+        // run Design Pattern example
+        Demo.run();
+
+        // run Design Pattern exercise
+        // Demo.runChallenge();
     }
 }

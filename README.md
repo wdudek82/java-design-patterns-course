@@ -10,7 +10,7 @@
 
 ## Design Patterns (examples & exercises)
 
-### Creational Patterns
+### Creational Patterns (5)
 
 - [x] Factory
     - [x] Abstract Creator
@@ -21,7 +21,26 @@
 - [x] Builder
 - [x] Prototype
 
-### Structural Patterns
+### Structural Patterns (7)
+
+* describes how classes and objects can be combined to form larger structures
+    * utilizes inheritance to compose interfaces or implementations
+    * structural object patterns describe ways to assemble objects
+    * e.g. complex user interfaces and accounting data
+
+* these design patterns concern class and object composition
+
+* **class patterns** describe how relationship between classes are defined
+    * use inheritance to compose interfaces or implementations
+    * relationships are established at compile time
+    * adapter
+
+* **object patterns** describe relationship between objects
+    * describe ways to compose objects to realize new functionality
+    * use composition
+    * relationships are typically created at runtime
+        * more dynamic and flexible
+    * bridge, composite, decorator, facade, flyweight and proxy patterns
 
 - [ ] Adapter
 - [ ] Bridge
@@ -31,7 +50,7 @@
 - [ ] Flyweight
 - [ ] Proxy
 
-### Behavioral Patterns
+### Behavioral Patterns (11)
 
 * these design patterns are specifically concerned with communication between objects
     * characterize complex control flow that is difficult to follow at run-time
