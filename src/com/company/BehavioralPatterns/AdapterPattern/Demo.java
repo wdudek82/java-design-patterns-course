@@ -1,9 +1,12 @@
 package com.company.BehavioralPatterns.AdapterPattern;
 
+import com.company.BehavioralPatterns.AdapterPattern.Example1.*;
+
 public class Demo {
     public static void run() {
         Duck mallardDuck = new MallardDuck();
         Turkey wildTurkey = new WildTurkey();
+
         TurkeyAdapter turkeyAdapter = new TurkeyAdapter(wildTurkey);
 
         testObjMethods(mallardDuck, "Mallard Duck");

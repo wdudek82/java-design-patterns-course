@@ -1,4 +1,4 @@
-package com.company.BehavioralPatterns.AdapterPattern;
+package com.company.BehavioralPatterns.AdapterPattern.Example1;
 
 public class MallardDuck implements Duck {
     @Override
