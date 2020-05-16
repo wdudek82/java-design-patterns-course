@@ -8,6 +8,9 @@ import com.company.BehavioralPatterns.AdapterPattern.Example2.Triangle;
 import com.company.BehavioralPatterns.AdapterPattern.Example3.Adapter;
 import com.company.BehavioralPatterns.AdapterPattern.Example3.IntegerValue;
 import com.company.BehavioralPatterns.AdapterPattern.Example3.IntegerValueInterface;
+import com.company.BehavioralPatterns.AdapterPatternChallenge.*;
+
+import javax.print.attribute.standard.Media;
 
 public class Demo {
     public static void run() {
@@ -17,7 +20,18 @@ public class Demo {
     }
 
     public static void runChallenge() {
+        MediaPlayer audioPlayer = new AudioPlayer();
+        audioPlayer.play("mp3", "random_song");
 
+        AdvancedMediaPlayer vlcPlayer = new VlcPlayer();
+        AdvancedMediaPlayer mp4Player = new Mp4Player();
+
+        MediaPlayer advancedMediaPlayerAdapter1 = new AdvancedMediaPlayerAdapter(vlcPlayer);
+        advancedMediaPlayerAdapter1.play("vlc", "random_song_2");
+
+        MediaPlayer advancedMediaPlayerAdapter2 = new AdvancedMediaPlayerAdapter(mp4Player);
+        advancedMediaPlayerAdapter2.play("mp4", "random_song_3");
+        advancedMediaPlayerAdapter2.play("avi", "random_song_4");
     }
 
     private static void firstExample() {
