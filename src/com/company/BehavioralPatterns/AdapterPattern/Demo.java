@@ -5,11 +5,15 @@ import com.company.BehavioralPatterns.AdapterPattern.Example2.Calculator;
 import com.company.BehavioralPatterns.AdapterPattern.Example2.CalculatorAdapter;
 import com.company.BehavioralPatterns.AdapterPattern.Example2.Rectangle;
 import com.company.BehavioralPatterns.AdapterPattern.Example2.Triangle;
+import com.company.BehavioralPatterns.AdapterPattern.Example3.Adapter;
+import com.company.BehavioralPatterns.AdapterPattern.Example3.IntegerValue;
+import com.company.BehavioralPatterns.AdapterPattern.Example3.IntegerValueInterface;
 
 public class Demo {
     public static void run() {
         // firstExample();
-        secondExample();
+        // secondExample();
+        thirdExample();
     }
 
     public static void runChallenge() {
@@ -43,5 +47,13 @@ public class Demo {
         CalculatorAdapter calculatorAdapter = new CalculatorAdapter(triangle);
         double result2 = calculatorAdapter.getArea(null);
         System.out.println("Result " + result2);
+    }
+
+    private static void thirdExample() {
+        IntegerValueInterface integerValue = new IntegerValue();
+        System.out.println("IntergerValue: " + integerValue.getInteger());
+
+        Adapter adapter = new Adapter();
+        System.out.println("Adapter: " + adapter.getInteger());
     }
 }
