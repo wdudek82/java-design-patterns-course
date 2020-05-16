@@ -42,7 +42,9 @@
         * more dynamic and flexible
     * bridge, composite, decorator, facade, flyweight and proxy patterns
 
-- [ ] Adapter
+- [x] Adapter
+    - [x] Object Adapter
+    - [x] Class Adapter
 - [ ] Bridge
 - [ ] Composite
 - [ ] Decorator
