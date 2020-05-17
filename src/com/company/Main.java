@@ -9,20 +9,20 @@ package com.company;
 // import com.company.CreationalPatterns.PrototypePattern.Demo;
 
 // Behavioral Patterns
-import com.company.BehavioralPatterns.AdapterPattern.Demo;
+// import com.company.BehavioralPatterns.AdapterPattern.Demo;
+
+import com.company.BehavioralPatterns.BridgePattern.Demo;
 
 // Structural Patterns
 // import com.company.StructuralPatterns.StrategyPattern.Demo;
-
-
 
 public class Main {
 
     public static void main(String[] args) {
         // run Design Pattern example
-        // Demo.run();
+        Demo.run();
 
         // run Design Pattern exercise
-        Demo.runChallenge();
+        // Demo.runChallenge();
     }
 }
