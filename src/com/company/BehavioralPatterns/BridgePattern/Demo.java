@@ -1,5 +1,7 @@
 package com.company.BehavioralPatterns.BridgePattern;
 
+import com.company.BehavioralPatterns.BridgePatternChallenge.*;
+
 public class Demo {
     public static void run() {
         Workshop w1 = new Produce();
@@ -13,6 +15,13 @@ public class Demo {
     }
 
     public static void runChallenge() {
+        Shape triangle = new Triangle(new RedColor());
+        Shape rectangle = new Rectangle(new GreenColor());
 
+        triangle.drawShape(2);
+        triangle.modifyBorder(3, 2);
+
+        rectangle.drawShape(4);
+        rectangle.modifyBorder(1, 3);
     }
 }
