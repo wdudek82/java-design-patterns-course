@@ -45,7 +45,7 @@
 - [x] Adapter
     - [x] Object Adapter
     - [x] Class Adapter
-- [ ] Bridge
+- [x] Bridge
 - [ ] Composite
 - [ ] Decorator
 - [ ] Facade
