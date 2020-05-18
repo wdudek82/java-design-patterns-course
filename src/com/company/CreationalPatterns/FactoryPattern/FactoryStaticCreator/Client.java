@@ -1,6 +1,6 @@
 package com.company.CreationalPatterns.FactoryPattern.FactoryStaticCreator;
 
-import com.company.CreationalPatterns.FactoryPattern.FactoryConcreteCreator.Shape;
+import com.company.CreationalPatterns.FactoryConcreteCreator.Shape;
 
 public class Client {
     public static void run() {

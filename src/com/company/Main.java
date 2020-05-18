@@ -10,11 +10,13 @@ package com.company;
 
 // Behavioral Patterns
 // import com.company.BehavioralPatterns.AdapterPattern.Demo;
+// import com.company.BehavioralPatterns.BridgePattern.Demo;
 
-import com.company.BehavioralPatterns.BridgePattern.Demo;
+import com.company.BehavioralPatterns.CompositePattern.Demo;
 
 // Structural Patterns
 // import com.company.StructuralPatterns.StrategyPattern.Demo;
+
 
 public class Main {
 

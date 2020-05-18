@@ -1,9 +1,9 @@
 package com.company.CreationalPatterns.FactoryPattern.FactoryStaticCreator;
 
-import com.company.CreationalPatterns.FactoryPattern.FactoryConcreteCreator.Circle;
-import com.company.CreationalPatterns.FactoryPattern.FactoryConcreteCreator.Rectangle;
-import com.company.CreationalPatterns.FactoryPattern.FactoryConcreteCreator.Shape;
-import com.company.CreationalPatterns.FactoryPattern.FactoryConcreteCreator.Triangle;
+import com.company.CreationalPatterns.FactoryConcreteCreator.Circle;
+import com.company.CreationalPatterns.FactoryConcreteCreator.Rectangle;
+import com.company.CreationalPatterns.FactoryConcreteCreator.Shape;
+import com.company.CreationalPatterns.FactoryConcreteCreator.Triangle;
 
 enum ShapeType {
     CIRCLE,

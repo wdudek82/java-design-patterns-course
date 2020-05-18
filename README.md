@@ -8,7 +8,7 @@
 4. Interface Segregation Principle,
 5. Dependency Inversion/Injection Principle
 
-## Design Patterns (examples & exercises)
+## GoF Design Patterns (23) - examples & exercises
 
 ### Creational Patterns (5)
 
@@ -46,7 +46,7 @@
     - [x] Object Adapter
     - [x] Class Adapter
 - [x] Bridge
-- [ ] Composite
+- [x] Composite
 - [ ] Decorator
 - [ ] Facade
 - [ ] Flyweight
