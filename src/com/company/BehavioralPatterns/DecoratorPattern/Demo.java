@@ -2,17 +2,28 @@ package com.company.BehavioralPatterns.DecoratorPattern;
 
 import com.company.BehavioralPatterns.DecoratorPattern.Example1.*;
 import com.company.BehavioralPatterns.DecoratorPattern.Example2.LowerCaseInputStream;
+import com.company.BehavioralPatterns.DecoratorPatternChallenge.*;
 
 import java.io.*;
 
 public class Demo {
     public static void run() {
         // example1();
-        example2();
+        // example2();
     }
 
     public static void runChallenge() {
+        Shape circle = new Circle();
+        Shape square = new Square();
 
+        ShapeDecorator red = new RedShapeDecorator();
+        ShapeDecorator green = new GreenShapeDecorator();
+
+        red.setShape(circle);
+        green.setShape(square);
+
+        red.draw();
+        green.draw();
     }
 
     public static void example1() {
