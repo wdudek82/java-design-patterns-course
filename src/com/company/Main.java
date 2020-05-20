@@ -12,11 +12,13 @@ package com.company;
 // import com.company.BehavioralPatterns.AdapterPattern.Demo;
 // import com.company.BehavioralPatterns.BridgePattern.Demo;
 // import com.company.BehavioralPatterns.CompositePattern.Demo;
+// import com.company.BehavioralPatterns.DecoratorPattern.Demo;
+import com.company.BehavioralPatterns.FacadePattern.Demo;
 
 
 // Structural Patterns
 // import com.company.StructuralPatterns.StrategyPattern.Demo;
-import com.company.BehavioralPatterns.DecoratorPattern.Demo;
+
 
 public class Main {
 
