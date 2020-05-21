@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RobotFactory {
-    private Map<String, RobotInterface> robots = new HashMap<>();
+    private final Map<String, RobotInterface> robots = new HashMap<>();
 
     public int totalObjectsCreated() {
         return robots.size();
@@ -16,8 +16,8 @@ public class RobotFactory {
         }
 
         RobotInterface robotCategory = switch (type) {
-            case SMALL_ROBOT -> new SmallRobot();
-            case LARGE_ROBOT -> new LargeRobot();
+            case SMALL_ROBOT -> new Robot(RobotType.SMALL_ROBOT);
+            case LARGE_ROBOT -> new Robot(RobotType.LARGE_ROBOT);
         };
 
         robots.put(type.name(), robotCategory);

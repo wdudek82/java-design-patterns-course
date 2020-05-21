@@ -1,18 +1,27 @@
 package com.company.BehavioralPatterns.FlyweightPattern;
 
+import com.company.BehavioralPatterns.FlyweightPatternChallenge.Player;
+import com.company.BehavioralPatterns.FlyweightPatternChallenge.PlayerFactory;
+import com.company.BehavioralPatterns.FlyweightPatternChallenge.PlayerType;
+import com.company.BehavioralPatterns.FlyweightPatternChallenge.WeaponType;
+
 public class Demo {
     public static void run() {
         RobotFactory robotFactory = new RobotFactory();
-        RobotInterface robotOne;
+        RobotInterface robotOne = robotFactory.getRobot(RobotType.SMALL_ROBOT);
         RobotInterface robotTwo;
 
-        for (var i = 0; i < 2; i++) {
+        robotOne.setColor("red");
+
+        for (var i = 0; i < 3; i++) {
             robotOne = robotFactory.getRobot(RobotType.SMALL_ROBOT);
             robotOne.print();
+            robotOne.setColor("blue");
         }
 
         for (var i = 0; i < 5; i++) {
             robotTwo = robotFactory.getRobot(RobotType.LARGE_ROBOT);
+            robotTwo.setColor("green");
             robotTwo.print();
         }
 
@@ -21,6 +30,20 @@ public class Demo {
     }
 
     public static void runChallenge() {
+        PlayerFactory playerFactory = new PlayerFactory();
+        Player playerOne = playerFactory.getPlayer(PlayerType.TERRORIST);
+        Player playerTwo = playerFactory.getPlayer(PlayerType.COUNTER_TERRORIST);
 
+        playerOne.assignWeapon(WeaponType.PISTOL);
+        playerTwo.assignWeapon(WeaponType.ASSAULT_RIFLE);
+
+        playerOne.mission();
+        playerTwo.mission();
+
+        playerOne.assignWeapon(WeaponType.KNIFE);
+        playerTwo.assignWeapon(WeaponType.PISTOL);
+
+        playerOne.mission();
+        playerTwo.mission();
     }
 }
