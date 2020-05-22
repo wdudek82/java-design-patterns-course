@@ -49,8 +49,8 @@
 - [x] Composite
 - [x] Decorator
 - [x] Facade
-- [ ] Flyweight
-- [ ] Proxy
+- [x] Flyweight
+- [x] Proxy
 
 ### Behavioral Patterns (11)
 
