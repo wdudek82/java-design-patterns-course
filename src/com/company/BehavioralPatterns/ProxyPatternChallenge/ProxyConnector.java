@@ -2,6 +2,7 @@ package com.company.BehavioralPatterns.ProxyPatternChallenge;
 
 import org.w3c.dom.ls.LSOutput;
 
+import java.net.ConnectException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -15,7 +16,7 @@ public class ProxyConnector implements Connector {
     }
 
     public void initializeBlacklist() {
-        String[] blackList = new String[] {
+        String[] blackList = new String[]{
                 "www.foo.com",
                 "www.bar.com",
                 "www.baz.com",
@@ -25,12 +26,11 @@ public class ProxyConnector implements Connector {
     }
 
     @Override
-    public void connect(String address) {
-        boolean isBlacklisted = blacklistedAddresses.contains(address);
+    public void connect(String address) throws ConnectException {
+        boolean isBlacklisted = blacklistedAddresses.contains(address.toLowerCase());
 
         if (isBlacklisted) {
-            System.out.println("This address is black listed. Disconnecting...");
-            return;
+            throw new ConnectException("Access Denied");
         }
 
         RealConnector realConnector = new RealConnector();
