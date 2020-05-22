@@ -14,8 +14,9 @@ package com.company;
 // import com.company.BehavioralPatterns.CompositePattern.Demo;
 // import com.company.BehavioralPatterns.DecoratorPattern.Demo;
 // import com.company.BehavioralPatterns.FacadePattern.Demo;
+// import com.company.BehavioralPatterns.FlyweightPattern.Demo;
 
-import com.company.BehavioralPatterns.FlyweightPattern.Demo;
+import com.company.BehavioralPatterns.ProxyPattern.Demo;
 
 
 // Structural Patterns
