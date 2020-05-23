@@ -74,7 +74,7 @@
     * the mediator pattern uses a mediator object for peer object communication
         * mediator provides the indirection needed for loose coupling
 
-- [ ] Chain of Responsibility
+- [x] Chain of Responsibility
 - [ ] Command
 - [ ] Interpreter
 - [ ] Iterator
