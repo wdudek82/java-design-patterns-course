@@ -15,22 +15,23 @@ package com.company;
 // import com.company.BehavioralPatterns.DecoratorPattern.Demo;
 // import com.company.BehavioralPatterns.FacadePattern.Demo;
 // import com.company.BehavioralPatterns.FlyweightPattern.Demo;
+// import com.company.BehavioralPatterns.ProxyPattern.Demo;
 
-import com.company.BehavioralPatterns.ProxyPattern.Demo;
 
 
 // Structural Patterns
 // import com.company.StructuralPatterns.StrategyPattern.Demo;
 
+import com.company.StructuralPatterns.ChainOfResponsibilityPattern.Demo;
 
 
 public class Main {
 
     public static void main(String[] args) {
         // run Design Pattern example
-        // Demo.run();
+        Demo.run();
 
         // run Design Pattern exercise
-        Demo.runChallenge();
+        // Demo.runChallenge();
     }
 }
