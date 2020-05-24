@@ -21,8 +21,8 @@ package com.company;
 // Structural Patterns
 // import com.company.StructuralPatterns.StrategyPattern.Demo;
 // import com.company.StructuralPatterns.ChainOfResponsibilityPattern.Demo;
+// import com.company.StructuralPatterns.CommandPattern.Demo;
 
-import com.company.StructuralPatterns.CommandPattern.Demo;
 
 
 public class Main {
@@ -32,6 +32,6 @@ public class Main {
         // Demo.run();
 
         // run Design Pattern exercise
-        Demo.runChallenge();
+        // Demo.runChallenge();
     }
 }

@@ -75,7 +75,7 @@
         * mediator provides the indirection needed for loose coupling
 
 - [x] Chain of Responsibility
-- [ ] Command
+- [x] Command
 - [ ] Interpreter
 - [ ] Iterator
 - [ ] Mediator
