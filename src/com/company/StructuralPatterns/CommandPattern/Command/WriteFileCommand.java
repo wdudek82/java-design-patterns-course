@@ -1,4 +1,6 @@
-package com.company.StructuralPatterns.CommandPattern;
+package com.company.StructuralPatterns.CommandPattern.Command;
+
+import com.company.StructuralPatterns.CommandPattern.Receiver.FileSystemReceiver;
 
 public class WriteFileCommand implements Command {
     private final FileSystemReceiver fileSystemReceiver;

@@ -1,4 +1,4 @@
-package com.company.StructuralPatterns.CommandPattern;
+package com.company.StructuralPatterns.CommandPattern.Command;
 
 public interface Command {
     void execute();

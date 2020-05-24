@@ -1,5 +1,7 @@
 package com.company.StructuralPatterns.CommandPattern;
 
+import com.company.StructuralPatterns.CommandPattern.Command.Command;
+
 public class FileInvoker {
     public Command command;
 
