@@ -22,7 +22,9 @@ package com.company;
 // import com.company.StructuralPatterns.StrategyPattern.Demo;
 // import com.company.StructuralPatterns.ChainOfResponsibilityPattern.Demo;
 // import com.company.StructuralPatterns.CommandPattern.Demo;
-import com.company.StructuralPatterns.InterpreterPattern.Demo;
+// import com.company.StructuralPatterns.InterpreterPattern.Demo;
+
+import com.company.StructuralPatterns.IteratorPattern.Demo;
 
 public class Main {
 
