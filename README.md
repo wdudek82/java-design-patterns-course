@@ -80,7 +80,7 @@
 - [x] Iterator
 - [x] Mediator
 - [x] Memento
-- [ ] Observer
+- [x] Observer
 - [ ] State
 - [x] Strategy
 - [ ] Template Method
