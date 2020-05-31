@@ -8,6 +8,9 @@
 4. Interface Segregation Principle,
 5. Dependency Inversion/Injection Principle
 
+### Additional reading
+[The S.O.L.I.D. Principles in Pictures](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
+
 ## GoF Design Patterns (23) - examples & exercises
 
 ### Creational Patterns (5)
@@ -85,3 +88,7 @@
 - [x] Strategy
 - [ ] Template Method
 - [ ] Visitor
+
+### Additional reading
+* [Source Making](https://sourcemaking.com/)
+* [Refactoring Guru](https://refactoring.guru/)
