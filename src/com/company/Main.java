@@ -26,8 +26,9 @@ package com.company;
 // import com.company.StructuralPatterns.IteratorPattern.Demo;
 // import com.company.StructuralPatterns.MediatorPattern.Demo;
 // import com.company.StructuralPatterns.MementoPattern.Demo;
+// import com.company.StructuralPatterns.ObserverPattern.Demo;
 
-import com.company.StructuralPatterns.ObserverPattern.Demo;
+import com.company.StructuralPatterns.StatePattern.Demo;
 
 public class Main {
 
@@ -39,3 +40,4 @@ public class Main {
         Demo.runChallenge();
     }
 }
+
