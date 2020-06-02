@@ -27,8 +27,9 @@ package com.company;
 // import com.company.StructuralPatterns.MediatorPattern.Demo;
 // import com.company.StructuralPatterns.MementoPattern.Demo;
 // import com.company.StructuralPatterns.ObserverPattern.Demo;
+// import com.company.StructuralPatterns.StatePattern.Demo;
 
-import com.company.StructuralPatterns.StatePattern.Demo;
+import com.company.StructuralPatterns.TemplatePattern.Demo;
 
 public class Main {
 
