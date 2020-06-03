@@ -9,27 +9,27 @@ package com.company;
 // import com.company.CreationalPatterns.PrototypePattern.Demo;
 
 // Behavioral Patterns
-// import com.company.BehavioralPatterns.AdapterPattern.Demo;
-// import com.company.BehavioralPatterns.BridgePattern.Demo;
-// import com.company.BehavioralPatterns.CompositePattern.Demo;
-// import com.company.BehavioralPatterns.DecoratorPattern.Demo;
-// import com.company.BehavioralPatterns.FacadePattern.Demo;
-// import com.company.BehavioralPatterns.FlyweightPattern.Demo;
-// import com.company.BehavioralPatterns.ProxyPattern.Demo;
+// import com.company.StructuralPatterns.AdapterPattern.Demo;
+// import com.company.StructuralPatterns.BridgePattern.Demo;
+// import com.company.StructuralPatterns.CompositePattern.Demo;
+// import com.company.StructuralPatterns.DecoratorPattern.Demo;
+// import com.company.StructuralPatterns.FacadePattern.Demo;
+// import com.company.StructuralPatterns.FlyweightPattern.Demo;
+// import com.company.StructuralPatterns.ProxyPattern.Demo;
 
 
 // Structural Patterns
-// import com.company.StructuralPatterns.StrategyPattern.Demo;
-// import com.company.StructuralPatterns.ChainOfResponsibilityPattern.Demo;
-// import com.company.StructuralPatterns.CommandPattern.Demo;
-// import com.company.StructuralPatterns.InterpreterPattern.Demo;
-// import com.company.StructuralPatterns.IteratorPattern.Demo;
-// import com.company.StructuralPatterns.MediatorPattern.Demo;
-// import com.company.StructuralPatterns.MementoPattern.Demo;
-// import com.company.StructuralPatterns.ObserverPattern.Demo;
-// import com.company.StructuralPatterns.StatePattern.Demo;
+// import com.company.BehavioralPatterns.StrategyPattern.Demo;
+// import com.company.BehavioralPatterns.ChainOfResponsibilityPattern.Demo;
+// import com.company.BehavioralPatterns.CommandPattern.Demo;
+// import com.company.BehavioralPatterns.InterpreterPattern.Demo;
+// import com.company.BehavioralPatterns.IteratorPattern.Demo;
+// import com.company.BehavioralPatterns.MediatorPattern.Demo;
+// import com.company.BehavioralPatterns.MementoPattern.Demo;
+// import com.company.BehavioralPatterns.ObserverPattern.Demo;
+// import com.company.BehavioralPatterns.StatePattern.Demo;
 
-import com.company.StructuralPatterns.TemplatePattern.Demo;
+import com.company.BehavioralPatterns.TemplatePattern.Demo;
 
 public class Main {
 
