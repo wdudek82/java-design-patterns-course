@@ -87,7 +87,7 @@
 - [x] State
 - [x] Strategy
 - [x] Template Method
-- [ ] Visitor
+- [x] Visitor
 
 ### Additional reading
 * [Source Making](https://sourcemaking.com/)
