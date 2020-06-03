@@ -8,7 +8,7 @@ package com.company;
 // import com.company.CreationalPatterns.PrototypePattern.Demo;
 // import com.company.CreationalPatterns.PrototypePattern.Demo;
 
-// Behavioral Patterns
+// Structural Patterns
 // import com.company.StructuralPatterns.AdapterPattern.Demo;
 // import com.company.StructuralPatterns.BridgePattern.Demo;
 // import com.company.StructuralPatterns.CompositePattern.Demo;
@@ -18,7 +18,7 @@ package com.company;
 // import com.company.StructuralPatterns.ProxyPattern.Demo;
 
 
-// Structural Patterns
+// Behavioral Patterns
 // import com.company.BehavioralPatterns.StrategyPattern.Demo;
 // import com.company.BehavioralPatterns.ChainOfResponsibilityPattern.Demo;
 // import com.company.BehavioralPatterns.CommandPattern.Demo;
@@ -28,17 +28,18 @@ package com.company;
 // import com.company.BehavioralPatterns.MementoPattern.Demo;
 // import com.company.BehavioralPatterns.ObserverPattern.Demo;
 // import com.company.BehavioralPatterns.StatePattern.Demo;
+// import com.company.BehavioralPatterns.TemplatePattern.Demo;
 
-import com.company.BehavioralPatterns.TemplatePattern.Demo;
+import com.company.BehavioralPatterns.VisitorPattern.Demo;
 
 public class Main {
 
     public static void main(String[] args) {
         // run Design Pattern example
-        // Demo.run();
+        Demo.run();
 
         // run Design Pattern exercise
-        Demo.runChallenge();
+        // Demo.runChallenge();
     }
 }
 
