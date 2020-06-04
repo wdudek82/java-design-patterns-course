@@ -36,10 +36,10 @@ public class Main {
 
     public static void main(String[] args) {
         // run Design Pattern example
-        Demo.run();
+        // Demo.run();
 
         // run Design Pattern exercise
-        // Demo.runChallenge();
+        Demo.runChallenge();
     }
 }
 

@@ -1,5 +1,5 @@
 package com.company.BehavioralPatterns.VisitorPattern;
 
-public interface ItemElement {
+interface ItemElement {
     int accept(ShoppingCartVisitor visitor);
 }
